@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 290">
+    <style type="text/css">.pair { animation: pair 10s infinite; } .indicator { animation: indicator 10s infinite; } @keyframes pair { 0% {fill:#FFFFFF;} 10% {fill:#FFFFFF;} 40% {fill:#ED1C24;} 65% {fill:#ED1C24;} 70% {fill:#FFFFFF;} 80% {fill:#ED1C24;} 85% {fill:#ED1C24;} 100% {fill:#ED1C24;} } @keyframes indicator { 0% {fill:#FFFFFF;} 20% {fill:rgba(255,255,255,0);} 24% {fill:#ffb804;} 55% {fill:#ffb804;} 60% {fill:#00c500;} 75% {fill:#00c500;} 81% {fill:rgba(255,255,255,0);} 83% {fill:rgba(255,255,255,0);} 85% {fill:#00c500;} 87% {fill:rgba(255,255,255,0);} 90% {fill:#00c500;} 92% {fill:rgba(255,255,255,0);} 94% {fill:#00c500;} 100% {fill:rgba(255,255,255,0);} }</style>
+    <path d="M129.674 98.798h-1.878l1.878-1.371v-.914h-3.795v1.037h1.948l-1.948 1.426v.86h3.795v-1.037m-.938-4.634c0-.487-.416-.882-.929-.882s-.929.394-.929.882.415.882.929.882.929-.394.929-.882zm-.93 1.951c-1.064 0-1.928-.876-1.928-1.957 0-1.06.786-1.958 1.928-1.958 1.064 0 1.927.877 1.927 1.958s-.863 1.957-1.927 1.957m1.868-18.963h-3.736v2.511h.989V78.2h2.747v-1.048m0 3.074h-3.736v2.772h.974v-1.73h.515v1.254h.782v-1.254h.492v1.706h.973v-2.748m0 5.857l-2.137-.786 2.137-.786V83.36l-3.76 1.496v.862l3.76 1.496v-1.131m0 1.555h-3.736v1.047h3.736v-1.047m0 1.694h-.997v.918h-2.739v1.047h2.739v.903h.997v-2.868"
+          fill="#231f20"/>
+    <g fill="none" stroke="#000" stroke-linejoin="round" stroke-dashoffset="1">
+        <circle class="pair" cx="97.103" cy="147.17" r="12.047" stroke-width="1.45"/>
+        <rect width="156.479" height="265.117" x="20.137" y="14.691" rx="5.804" ry="5.887" stroke-width="2.451"/>
+        <rect width="76.875" height="152.569" x="59.394" y="71.464" rx="5.967" ry="6.854" stroke-width="1.45"/>
+    </g>
+    <path d="M81.133 79.829h3.964v19.769h-3.964zm29.043 2.147h4.579v16.405h-4.579zM80.893 176.19h3.964v19.769h-3.964zm29.043 2.147h4.579v16.405h-4.579zm-6.2-62.001a5.928 5.482 0 0 1-5.928 5.482 5.928 5.482 0 0 1-5.928-5.482 5.928 5.482 0 0 1 5.928-5.482 5.928 5.482 0 0 1 5.928 5.482zm-11.851.245h11.865v7.05H91.885zm11.744 95.887a5.928 5.482 0 0 1-5.928 5.482 5.928 5.482 0 0 1-5.928-5.482 5.928 5.482 0 0 1 5.928-5.482 5.928 5.482 0 0 1 5.928 5.482zm-11.851.245h11.865v7.05H91.778z"
+          fill-opacity=".993"/>
+    <defs>
+        <filter id="f1" x="-200%" width="400%" height="400%">
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+        </filter>
+    </defs>
+    <rect rx="2" class="indicator" style="fill:none;" width="30" height="10" x="83" y="224.8" filter="url(#f1)" />
+</svg>

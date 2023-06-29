@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 290">
+    <style type="text/css">.pair { animation: pair 10s infinite; } .indicator { animation: indicator 10s infinite; } @keyframes pair { 0% {fill:rgba(255,255,255,0);} 10% {fill:rgba(255,255,255,0);} 40% {fill:#ED1C24;} 65% {fill:#ED1C24;} 70% {fill:rgba(255,255,255,0);} 80% {fill:#ED1C24;} 85% {fill:#ED1C24;} 100% {fill:#ED1C24;} } @keyframes indicator { 0% {fill:rgba(255,255,255,0);} 20% {fill:rgba(255,255,255,0);} 24% {fill:#ffb804;} 55% {fill:#ffb804;} 60% {fill:#00c500;} 75% {fill:#00c500;} 81% {fill:rgba(255,255,255,0);} 83% {fill:rgba(255,255,255,0);} 85% {fill:#00c500;} 87% {fill:rgba(255,255,255,0);} 90% {fill:#00c500;} 92% {fill:rgba(255,255,255,0);} 94% {fill:#00c500;} 100% {fill:rgba(255,255,255,0);} }</style>
+    <g fill="none" stroke="#000" stroke-dashoffset="1" stroke-linejoin="round">
+        <path stroke-width="2.175" d="M17.569 4.908h165.95v279.66H17.569z"/>
+        <rect x="61.301" y="65.287" width="79.073" height="158.98" ry="5.981" stroke-width="1.45"/>
+        <rect x="69.993" y="72.316" width="60.908" height="146.3" ry="1.562" stroke-width=".725"/>
+    </g>
+    <path d="M98.157 209.37v1.975l-1.443-1.975h-.962v3.992h1.091v-2.049l1.501 2.049h.905v-3.992h-1.091m-4.878.987c-.513 0-.928.438-.928.977s.415.977.928.977.928-.437.928-.977-.415-.977-.928-.977zm2.054.978c0 1.119-.922 2.028-2.06 2.028-1.116 0-2.061-.827-2.061-2.028 0-1.119.923-2.027 2.061-2.027s2.06.908 2.06 2.027m-19.96-1.965v3.93h2.643v-1.04h-1.541v-2.889h-1.103m3.236 0v3.93h2.918v-1.024h-1.821v-.542h1.32v-.823h-1.32v-.518h1.796v-1.024h-2.892m6.165 0l-.827 2.248-.827-2.248h-1.212l1.575 3.955h.907l1.575-3.955h-1.19m1.637 0v3.93h1.102v-3.93H86.41m1.783 0v1.049h.966v2.881h1.102v-2.881h.95v-1.049h-3.019"
+          fill="#231f20"/>
+    <circle class="pair" cx="100.653" cy="98.801" r="16.798" fill="red"/>
+    <rect width="3.17" height="93.515" x="134.045" y="96.926" ry=".732" fill="#000" stroke="none"/>
+    <defs>
+        <filter id="f1" x="-200%" width="400%" height="400%">
+            <feGaussianBlur result="blurOut" in="offOut" stdDeviation="10" />
+            <feBlend in="SourceGraphic" in2="blurOut" mode="normal" />
+        </filter>
+    </defs>
+    <rect rx="2" class="indicator" style="fill:none;" width="30" height="10" x="88" y="219" filter="url(#f1)" />
+</svg>
